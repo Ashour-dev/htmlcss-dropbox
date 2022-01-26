@@ -35,7 +35,7 @@ button{
     color: white;
     border: 0;
 }
-i *{
+i{
     font-family: 'Open Sans', sans-serif;
 }
 .jump{
@@ -72,7 +72,7 @@ i *{
 .con1{
     width: 100%;
 }
-.con1>*, .con2>*{
+.con1>*, .con2>*, .con3>*{
     float: left;
 }
 input[type=radio]{
@@ -81,12 +81,14 @@ input[type=radio]{
     margin-right: 2px;
 }
 .card{
-    width: calc(100% / 3 - 40px);
+    width: calc(100% / 3 - 27px);
     border: 1px solid black;
     padding:0 20px;
     float: left;
-    margin-right: 40px;
     height: 140vh;
+}
+.con1>.even{
+    margin: 0 40px;
 }
 .title{
     text-align: center;
@@ -136,4 +138,13 @@ ul{
     background-color:white;
     color: black;
     border: 1px solid black;
+}
+.minicont{
+    width: calc(100% / 3 - 20px);
+    margin-top: 40px;
+    height: 450px;
+}
+.con3>.even{
+    margin: 0 20px;
+    margin-top: 40px;
 }
