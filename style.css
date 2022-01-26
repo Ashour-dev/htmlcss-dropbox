@@ -19,6 +19,15 @@ header{
     float: right;
     margin-right:30px ;
 }
+button{
+    padding:5px 15px ;
+    background-color: #0061ff;
+    color: white;
+    border: 0;
+}
+i *{
+    font-family: 'Open Sans', sans-serif;
+}
 .jump{
     width: 80%;
     margin: 40px auto;
@@ -46,4 +55,43 @@ header{
 .jump>img{
     float: right;
     width: 60%;
+}
+.contenitore{
+    width: 65%;
+    margin: 220px auto ;
+}
+.con1>*{
+    float: left;
+}
+input[type=radio]{
+    margin: 40px 0;
+    margin-left: 10px;
+    margin-right: 2px;
+}
+.card{
+    width: calc(100% / 3 - 40px);
+    border: 1px solid black;
+    padding:0 20px;
+    float: left;
+    margin-right: 40px;
+}
+.title{
+    text-align: center;
+    padding: 4px 0;
+}
+.card *{
+    display: block;
+    line-height: 2;
+}
+.card>button{
+    width: 100%;
+}
+.small-hr{
+    width: 20%;
+    background-color: black;
+    height: 1px;
+    margin: 25px 0;
+}
+ul{
+    list-style: url('img/check-solid.svg');
 }
