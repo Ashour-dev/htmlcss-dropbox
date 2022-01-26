@@ -206,3 +206,19 @@ ul{
 .l8{
     background-color: #ffd830;
 }
+.con5{
+    height: 50vh;
+    background-color: #b4d0e7;
+    position: relative;
+    padding: 20vh 0;
+}
+.con5 h1{
+    color:#61082b ;
+    font-size: 30px;
+    width: 40%;
+}
+.con5 .butt2{
+    border: 0;
+    width: 30%;
+    float: right;
+}
