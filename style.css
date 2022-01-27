@@ -6,7 +6,9 @@
     z-index: 1;
 }
 hr{
-    //////////////////////////////////////
+    border: 0.01px solid rgba(182, 182, 182, 0.493);
+    background-color: rgba(182, 182, 182, 0.493);
+    height: 0;
 }
 .clearfix::after {
     content: "";
@@ -17,6 +19,9 @@ header{
     height: 65px;
     padding: 20px;
     background-color: white;
+}
+header li{
+    display: inline;
 }
 .wid100{
     width: 100%;
@@ -29,15 +34,15 @@ header{
     float: right;
     margin-right:30px ;
 }
+header button, header img{
+    position: relative;
+    bottom: 0.4vh;
+}
 button{
     padding:5px 15px ;
     background-color: #0061ff;
     color: white;
     border: 0;
-    margin-bottom: 10px;
-}
-i{
-    display: inline-block;
 }
 .narrow{
     width: 65%;
@@ -83,10 +88,16 @@ input[type=radio]{
 }
 .card{
     width: calc(100% / 3 - 27px);
-    border: 1px solid black;
+    border: 1px solid rgba(182, 182, 182, 0.493);
     padding:0 20px;
     float: left;
+    position: relative;
     height: 140vh;
+}
+.divisor{
+    position: absolute;
+    left: 0;
+    width: 100%;
 }
 .con1>.even{
     margin: 0 40px;
@@ -96,11 +107,11 @@ input[type=radio]{
     padding: 4px 0;
 }
 .card *{
-    display: block;
-    line-height: 2;
+    line-height: 2.5;
 }
 .card>button{
     width: 100%;
+    margin-top: 5vh;
 }
 .small-hr{
     width: 3vw;
@@ -108,7 +119,7 @@ input[type=radio]{
     height: 1px;
     margin: 25px 0;
 }
-ul{
+.card li{
     list-style: url('img/check-solid.svg');
 }
 .cardb{
@@ -239,8 +250,4 @@ ul{
 }
 .arrow{
     float: right;
-}
-hr{
-    border: 0.1px solid rgba(182, 182, 182, 0.493);
-    background-color: rgba(182, 182, 182, 0.493);
 }
