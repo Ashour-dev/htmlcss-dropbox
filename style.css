@@ -37,7 +37,7 @@ button{
     margin-bottom: 10px;
 }
 i{
-    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
 }
 .narrow{
     width: 65%;
@@ -159,8 +159,7 @@ ul{
 }
 .con4 .logo{
     width: calc(100% / 2);
-    height: 227px;
-    /* padding-top: 50%; */
+    padding-top: 50%;
     position: relative;
 }
 .head{
@@ -223,4 +222,25 @@ ul{
     border: 0;
     width: 30%;
     float: right;
+}
+.con6{
+    margin-top:20vh ;
+}
+.con6 h1{
+    margin-bottom: 5vh;
+}
+.QA{
+    margin: 4vh 0;
+    padding-right: 2vw;
+    position: relative;
+}
+.QA h3{
+    display: inline-block;
+}
+.arrow{
+    float: right;
+}
+hr{
+    border: 0.1px solid rgba(182, 182, 182, 0.493);
+    background-color: rgba(182, 182, 182, 0.493);
 }
