@@ -10,11 +10,33 @@ hr{
     background-color: rgba(182, 182, 182, 0.493);
     height: 0;
 }
+button{
+    padding:5px 15px ;
+    background-color: #0061ff;
+    color: white;
+    border: 0;
+}
+button:hover{
+    opacity: 80%;
+}
+.butt2{
+    background-color:white;
+    color: black;
+    border: 1px solid black;
+}
+.narrow{
+    width: 65%;
+    margin: auto;
+}
 .clearfix::after {
     content: "";
     display: table;
     clear: both;
 }
+.con1>*, .con2>*, .con3>*,.body *, .foot>*{
+    float: left;
+}
+/* Header */
 header{
     height: 65px;
     padding: 20px;
@@ -60,26 +82,14 @@ header button, header img{
     position: relative;
     bottom: 0.4vh;
 }
-button{
-    padding:5px 15px ;
-    background-color: #0061ff;
-    color: white;
-    border: 0;
-}
-button:hover{
-    opacity: 80%;
-}
-.narrow{
-    width: 65%;
-    margin: auto;
-}
+
+/* Jumbotron */
 .jump{
     width: 80%;
     margin: 40px auto;
     margin-bottom: 40px;
     position: relative;
     padding-top: 65px;
-    z-index: 1;
 }
 .back{
     height: 80vh;
@@ -110,9 +120,7 @@ button:hover{
 .contenitore{
     margin: 220px auto;
 }
-.con1>*, .con2>*, .con3>*,.body *, .foot>*{
-    float: left;
-}
+/* Primo contenitore */
 input[type=radio]{
     margin: 40px 0;
     margin-left: 10px;
@@ -152,6 +160,7 @@ input[type=radio]{
 }
 .card li{
     list-style: url('img/check-solid.svg');
+    margin-left: 1vw;
 }
 .cardb{
     border: 1px solid rgba(182, 182, 182, 0.493);
@@ -166,6 +175,7 @@ input[type=radio]{
     top: 70px;
     width: 30%;
 }
+/* Secondo contenitore */
 .con2{
     margin: 100px 0;
     position: relative;
@@ -177,11 +187,7 @@ input[type=radio]{
 .con2>.txt{
     width: 45%;
 }
-.butt2{
-    background-color:white;
-    color: black;
-    border: 1px solid black;
-}
+/* Terzo contenitore */
 .minicont{
     width: calc(100% / 3 - 20px);
     margin-top: 40px;
@@ -195,6 +201,7 @@ input[type=radio]{
     width: 30%;
     position: relative;
 }
+/* Quarto contenitore */
 .con4 a {
     display: block;
     margin: 40px 0;
@@ -249,6 +256,7 @@ input[type=radio]{
 .l8{
     background-color: #ffd830;
 }
+/* Quinto contenitore */
 .con5{
     height: 50vh;
     background-color: #b4d0e7;
@@ -265,6 +273,7 @@ input[type=radio]{
     width: 30%;
     float: right;
 }
+/* Sesto contenitore */
 .con6{
     margin-top:20vh ;
 }
@@ -296,6 +305,7 @@ input[type=radio]{
 .QA:hover #down{
     display: none;
 }
+/* Footer */
 footer{
     background-color: black;
     height: 85vh;
